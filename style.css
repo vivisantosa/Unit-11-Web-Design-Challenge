@@ -1,0 +1,85 @@
+/* 
+  UofT SCS Data Analytics Boot Camp
+	Assignment 09 - Web
+  Author:	Vivianti Santosa */
+
+/* Styles for Heading Box */
+.HeadBox{
+    width: 100%;
+    padding: 40px;
+    height: 120px;
+    background-color:#ff5757;
+}
+h2{
+    font-family: 'Calibri';
+    font-size: 32pt;
+    font-weight: 400;
+    margin-left: 20px;
+}
+hr.new3 {
+    border-top: 10px dotted #356178;
+  }
+
+/* Styles for Heading Body */
+.BodyBox{
+  padding: 40px;
+  background-color: #f4eba0;
+}
+.title{
+	color:#356178;
+}
+.VisImage{
+  max-width: 100%;
+  /*height: 420px;*/
+  box-shadow: grey 20px;
+}
+.BodyFont{
+  padding-top: 50px;
+  font-size: 14pt;
+  text-align: justify;
+  margin-right: 20px;
+}
+
+/* Styles for Menu Box */
+.MenuBox{
+  position: relative;
+  background-color: #356178;
+   top: -100px;
+  right: -30px;
+  left: -20px;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 9pt;
+  text-align: center;
+}
+.BoxImage{
+  width:120px;
+  height:75px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+
+/* Test */
+.box {
+  min-height: 30px;
+  padding: 5px;
+  margin: 5px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.skyblue {
+  background: deepskyblue;
+}
+
+.purple {
+  background: rebeccapurple;
+}
+
