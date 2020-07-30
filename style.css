@@ -1,32 +1,86 @@
 /* 
   UofT SCS Data Analytics Boot Camp
-	Assignment 09 - Web
+	Assignment 09 - Web Vizualisation
   Author:	Vivianti Santosa */
+
+/* Style for Navigation Bar */
+#MyColor_Blue{
+  background-color: #356178;
+}
+#Project_Font{
+  font-family: 'Calibri';
+  font-size: 24pt;
+  font-weight: 400;
+  color:#ff5757;
+  margin-left: 20px;  
+}
+#RightAlign{
+  align-content: right;
+}
 
 /* Styles for Heading Box */
 .HeadBox{
+  /*position: absolute;
+  top: 50px;*/
     width: 100%;
-    padding: 40px;
+    padding-top: 15px;
+    padding-left: 50px;
     height: 120px;
+    margin:0px;
     background-color:#ff5757;
 }
-h2{
-    font-family: 'Calibri';
-    font-size: 32pt;
-    font-weight: 400;
-    margin-left: 20px;
+.LineBox{
+  width: 100%;
+  padding: 20px;
+  height: 30px;
+  background-color:#ff5757;
+}
+t1{
+  font-family: 'Calibri';
+  font-size: 36pt;
+  font-weight: 600;
+  margin-left: 20px;
+  color:#356178;
+}
+t2{
+  margin-left: 20px;
+  border-spacing: 0;
+  color:#356178;
+  font-family: 'Calibri';
+  font-size: 28pt;
+  font-weight: 400;
+  z-index: 10;
 }
 hr.new3 {
-    border-top: 10px dotted #356178;
-  }
+  border-top: 10px dotted #356178;
+  z-index: 10;
+}
 
-/* Styles for Heading Body */
+/* Styles for Body Section */
+/*.TitleBox{
+  padding-left : 40px;
+  padding-right: 40px;
+  background-color: #f4eba0;
+}*/
 .BodyBox{
-  padding: 40px;
+  /*position: absolute;
+  top: 170px;*/
+  width: max;
+  padding-top : 30px;
+  padding-left: 50px;
   background-color: #f4eba0;
 }
 .title{
-	color:#356178;
+  color:#356178;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+.LandPgImage{
+  Width: 50%;
+  Height: auto;
+  padding-right: 20px;
+  float: left;
+  box-shadow: grey 20px;
 }
 .VisImage{
   max-width: 100%;
@@ -34,29 +88,32 @@ hr.new3 {
   box-shadow: grey 20px;
 }
 .BodyFont{
-  padding-top: 50px;
   font-size: 14pt;
   text-align: justify;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 /* Styles for Menu Box */
 .MenuBox{
   position: relative;
   background-color: #356178;
-   top: -100px;
-  right: -30px;
-  left: -20px;
+  top: -100px;
+  padding: 10px;
+  width: 90%;
+  align-self: center;
   color: whitesmoke;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 9pt;
   text-align: center;
 }
+.BoxImage:hover {
+  border: 2px solid #777;
+}
 .BoxImage{
-  width:120px;
-  height:75px;
-  padding-top:10px;
-  padding-bottom:10px;
+  width:135px;
+  height:auto;
+  padding-top:5px;
+  padding-bottom:5px;
 }
 
 img {
@@ -64,8 +121,70 @@ img {
   border-radius: 4px;
   padding: 5px;
 }
+/*Style for Gallery*/
+.gallery {
+  padding: 10px;
+  border: 1px dashed turquoise;
+  border-radius: -3px;
+  float: left;
+  width: 85%;
+  align-items: center;
+  background-color: #ddd5c5;
+  margin: 20px;
+}
+.gallery:hover {
+  border: 2px solid #777;
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+  align-items: center;}
+#SmImg {
+    width: 47%;}
+.desc {
+  padding: 5px;
+  font-weight: 600;
+  text-align: center;
+}
+/*TABLE */
+.table {
+  overflow-x:auto;
+  table-layout: auto;
+  width: 100%;
+  background-color: wheat; 
+}
+.TableFont{
+  font-size: 12pt;
+}
 
-
+/* Adding media queries for
+screen smaller than 780 pixels */
+@media (max-width: 780px) {
+  #Project_Font{
+    font-size: 20pt;
+  }
+  .HeadBox{
+    padding: 10px;
+    height: 90px;}
+  t1{
+    font-size: 28pt;
+    font-weight: 400;
+    margin-left: 10px;}
+  t2{
+    font-size: 22pt;
+    font-weight: 300;
+    margin-left: 10px;}
+  .BodyFont{
+    font-size: 12pt;
+    margin-right: 10px;
+    } 
+  .MenuBox{
+    padding: 10px;
+    width: 90%;
+    }  
+  .TableFont{
+    font-size: 9pt;}
+}
 /* Test */
 .box {
   min-height: 30px;

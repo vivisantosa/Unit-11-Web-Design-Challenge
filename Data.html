@@ -1,0 +1,116 @@
+<!-- 
+  UofT SCS Data Analytics Boot Camp
+	Assignment 09 - Web
+  Author:	Vivianti Santosa -->
+
+<!--DATA TABLE-->  
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DataPg - WebViz</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> <!--check later-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> <!--check later-->
+
+
+  </head>
+<body>
+  <!--Navbar with collapse and drop down -->
+  <nav class="navbar navbar-inverse" id="MyColor_Blue"> 
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" id="RightAlign" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" id="Project_Font" href="#">WEB VIZUALISATION PROJECT</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="http://127.0.0.1:5500/For%20Push/L1.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Analysis <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="http://127.0.0.1:5500/For%20Push/V2.html">Temperature</a></li>
+              <li><a href="http://127.0.0.1:5500/For%20Push/L1.html">Page 1-2</a></li>
+              <li><a href="http://127.0.0.1:5500/For%20Push/V2.html">Page 1-3</a></li>
+            </ul>
+          </li>
+          <li><a href="http://127.0.0.1:5500/For%20Push/L1.html">Comparison</a></li>
+          <li><a href="http://127.0.0.1:5500/For%20Push/Data.html">Data</a></li>
+          <li><a href="https://vivisantosa.github.io/"><span class="glyphicon glyphicon-user"></span> MyPage</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  
+  <!--Vizualisation Body-->
+  <div class="container-fluid">
+    <!--Header Section and Unit Name-->
+    <div class="row">
+      <div class='HeadBox'>
+        <t2>DATA</t2> 
+        <hr class="new3">
+      </div>
+    </div>  
+    
+  <!--Table Section-->
+  <div class="row BodyBox">
+    <div class="col-sm-9 col-lg-10 col-xl-10">
+      <p class="BodyFont">
+        The following table contains the data used for plotting during this project.
+      </p>
+
+      <div class="table-responsive">
+        <table class="table table-bordered TableFont">
+            <thead>
+              <tr><th>City_ID</th><th>City</th><th>Cloudiness</th><th>Country</th><th>Date</th><th>Humidity</th><th>Lat</th><th>Lng</th><th>Max Temp</th><th>Wind Speed</th></tr>
+            </thead>
+
+            <tbody>
+              <tr><td>0</td><td>jacareacanga</td><td>0</td><td>BR</td><td>1528902000</td><td>62</td><td>-6.22</td><td>-57.76</td><td>89.6</td><td>6.93</td></tr>
+              <tr><td>1</td><td>kaitangata</td><td>100</td><td>NZ</td><td>1528905304</td><td>94</td><td>-46.28</td><td>169.85</td><td>42.61</td><td>5.64</td></tr>
+              <tr><td>2</td><td>goulburn</td><td>20</td><td>AU</td><td>1528905078</td><td>91</td><td>-34.75</td><td>149.72</td><td>44.32</td><td>10.11</td></tr>
+              <tr><td>3</td><td>lata</td><td>76</td><td>IN</td><td>1528905305</td><td>89</td><td>30.78</td><td>78.62</td><td>59.89</td><td>0.94</td></tr>
+              <tr><td>4</td><td>chokurdakh</td><td>0</td><td>RU</td><td>1528905306</td><td>88</td><td>70.62</td><td>147.9</td><td>32.17</td><td>2.95</td></tr>
+              <tr><td>5</td><td>martyush</td><td>92</td><td>RU</td><td>1528905306</td><td>94</td><td>56.4</td><td>61.89</td><td>55.03</td><td>9.33</td></tr>
+              <tr><td>6</td><td>hobart</td><td>20</td><td>AU</td><td>1528902000</td><td>87</td><td>-42.88</td><td>147.33</td><td>44.6</td><td>8.05</td></tr>
+              <tr><td>7</td><td>broken hill</td><td>0</td><td>AU</td><td>1528905311</td><td>88</td><td>-31.97</td><td>141.45</td><td>44.5</td><td>7.31</td></tr>
+              <tr><td>8</td><td>harnosand</td><td>0</td><td>SE</td><td>1528903200</td><td>44</td><td>62.63</td><td>17.94</td><td>60.8</td><td>13.87</td></tr>
+              <tr><td>9</td><td>tuatapere</td><td>0</td><td>NZ</td><td>1528905312</td><td>100</td><td>-46.13</td><td>167.69</td><td>38.92</td><td>3.4</td></tr>
+              <tr><td>10</td><td>puerto ayora</td><td>90</td><td>EC</td><td>1528902000</td><td>69</td><td>-0.74</td><td>-90.35</td><td>77.0</td><td>13.87</td></tr>
+            </tbody>
+        </table>
+      </div>
+    </div>
+  
+     <!--Menu Box-->
+     <div class="col-sm-3 col-lg-2 MenuBox">
+      <div>VISUALIZATION</div>
+      <a href="https://vivisantosa.github.io/"><img src="Graphs/pic1.png" class=BoxImage></a>
+      <a href="https://vivisantosa.github.io/"><img src="Graphs/pic2.png" class=BoxImage></a> 
+      <a href="https://vivisantosa.github.io/"><img src="Graphs/pic3.png" class=BoxImage></a> 
+      <a href="https://vivisantosa.github.io/"><img src="Graphs/pic4.png" class=BoxImage></a>
+      <a href="https://vivisantosa.github.io/"><img src="Graphs/comparison-lg.png" class=BoxImage></a>
+      <a href="https://vivisantosa.github.io/"><img src="Graphs/data-lg.png" class=BoxImage></a> 
+    </div>
+
+  </div>
+
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

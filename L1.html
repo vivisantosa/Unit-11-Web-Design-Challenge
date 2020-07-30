@@ -1,0 +1,94 @@
+<!-- 
+  UofT SCS Data Analytics Boot Camp
+	Assignment 09 - Web Vizualisation
+  Author:	Vivianti Santosa -->
+
+<!--LANDING PAGE-->  
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>LandingPg - WebViz</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!--Navbar with collapse and drop down -->
+    <nav class="navbar navbar-inverse" id="MyColor_Blue"> 
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" id="RightAlign" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" id="Project_Font" href="#">WEB VIZUALISATION PROJECT</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://127.0.0.1:5500/For%20Push/L1.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Analysis <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="http://127.0.0.1:5500/For%20Push/V2.html">Temperature</a></li>
+                <li><a href="http://127.0.0.1:5500/For%20Push/L1.html">Page 1-2</a></li>
+                <li><a href="http://127.0.0.1:5500/For%20Push/V2.html">Page 1-3</a></li>
+              </ul>
+            </li>
+            <li><a href="http://127.0.0.1:5500/For%20Push/L1.html">Comparison</a></li>
+            <li><a href="http://127.0.0.1:5500/For%20Push/Data.html">Data</a></li>
+            <li><a href="https://vivisantosa.github.io/"><span class="glyphicon glyphicon-user"></span> MyPage</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Vizualisation Body-->
+    <div class="container-fluid">
+      <!--Header Section and Unit Name-->
+
+      <div class="row">
+        <div class='HeadBox'>
+          <t1>Summary: Latitude vs. X</t1> 
+          <hr class="new3">
+        </div>
+      </div> 
+
+      <!--Body Section and Unit Name-->
+      <div class="row BodyBox">
+        <!--Body-->
+        <div class="col-sm-9 col-lg-10">
+          <img src="Graphs/Fig1.png" class=LandPgImage>
+          <p class="BodyFont">
+            The purpose of this project was to analyze how weather changes as you get closer to the equator.  
+            To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset 
+            on over 500 cities.
+            <br><br>
+            After assembling the dataset, we used Matplotlib toplot various aspects of the weather vs. latitude.  
+            Factors we looked at included:  temperature, cloudiness, wind speed, and humidity.  
+            This site provides the source data and visualizations created as part of the anlaysis, 
+            as well as explanations and desicriptions of any trends and correlations witnessed.
+          </p>
+        </div>
+      <!--Menu Box-->
+      <div class="col-sm-3 col-lg-2 MenuBox">
+        <div>VISUALIZATION</div>
+        <a href="https://vivisantosa.github.io/"><img src="Graphs/pic1.png" class=BoxImage></a>
+        <a href="https://vivisantosa.github.io/"><img src="Graphs/pic2.png" class=BoxImage></a> 
+        <a href="https://vivisantosa.github.io/"><img src="Graphs/pic3.png" class=BoxImage></a> 
+        <a href="https://vivisantosa.github.io/"><img src="Graphs/pic4.png" class=BoxImage></a>
+        <a href="https://vivisantosa.github.io/"><img src="Graphs/comparison-lg.png" class=BoxImage></a>
+        <a href="https://vivisantosa.github.io/"><img src="Graphs/data-lg.png" class=BoxImage></a> 
+      </div>
+    </div>
+  </div>    
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

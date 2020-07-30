@@ -3,12 +3,12 @@
 	Assignment 09 - Web Vizualisation
   Author:	Vivianti Santosa -->
 
-<!--VIZUALISATION 1-->  
+<!--COMPARISON-->  
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>VizPg1 - WebViz</title>
+  <title>Comp - WebViz</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,10 +34,9 @@
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Analysis <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="http://127.0.0.1:5500/For%20Push/V1.html">Temperature</a></li>
-              <li><a href="http://127.0.0.1:5500/For%20Push/L1.html">Humidity</a></li>
-              <li><a href="http://127.0.0.1:5500/For%20Push/V2.html">Cloudiness</a></li>
-              <li><a href="http://127.0.0.1:5500/For%20Push/V2.html">Wind Speed</a></li>
+              <li><a href="http://127.0.0.1:5500/For%20Push/V2.html">Temperature</a></li>
+              <li><a href="http://127.0.0.1:5500/For%20Push/L1.html">Page 1-2</a></li>
+              <li><a href="http://127.0.0.1:5500/For%20Push/V2.html">Page 1-3</a></li>
             </ul>
           </li>
           <li><a href="http://127.0.0.1:5500/For%20Push/L1.html">Comparison</a></li>
@@ -47,7 +46,6 @@
       </div>
     </div>
   </nav>
-  
   
   <!--Vizualisation Body-->
   <div class="container-fluid">
@@ -61,33 +59,58 @@
   
     <!--Body Section and Unit Name-->
     <div class="row BodyBox">
-      <div class="col-md-9 col-lg-6">
-        <img src="Graphs/Fig1.png" class=VisImage>
-        <br><br>
-      </div>
-      <div class="col-sm-9 col-lg-4">
-        <p class="BodyFont">
-          As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude).
-          More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of the year than the norhtern hemisphere.
-          This is due to the tilt of the earth (earth's wobble) at this time of the year this data was gathered.
-        </p>
+      <!--Body-->
+      <div class="col-sm-9 col-lg-5">
+        <div class="gallery">
+          <div class="desc">MAXIMUM TEMPERATURE</div>
+          <a target="_blank" href="img_5terre.jpg">
+            <img id="SmImg" src="Graphs/Max TempSouthern Hemisphere.png">
+            <img id="SmImg" src="Graphs/Max TempNorthern Hemisphere.png">
+          </a>
+        </div>
+        
+        <div class="gallery">
+          <div class="desc">HUMIDITY</div>
+          <a target="_blank" href="img_forest.jpg">
+            <img id="SmImg" src="Graphs/HumiditySouthern Hemisphere.png">
+            <img id="SmImg" src="Graphs/HumidityNorthern Hemisphere.png">
+          </a>
+        </div>
       </div>
 
-    <!--Menu Box-->
-    <div class="col-sm-3 col-lg-2 MenuBox">
-      <div>VISUALIZATION</div>
-      <a href="http://127.0.0.1:5500/For%20Push/V1.html"><img src="Graphs/pic1.png" class=BoxImage></a>
-      <a href="http://127.0.0.1:5500/For%20Push/V1.html"><img src="Graphs/pic2.png" class=BoxImage></a> 
-      <a href="http://127.0.0.1:5500/For%20Push/V1.html"><img src="Graphs/pic3.png" class=BoxImage></a> 
-      <a href="http://127.0.0.1:5500/For%20Push/V1.html"><img src="Graphs/pic4.png" class=BoxImage></a>
-      <a href="http://127.0.0.1:5500/For%20Push/Comp.html"><img src="Graphs/comparison-lg.png" class=BoxImage></a>
-      <a href="http://127.0.0.1:5500/For%20Push/Data.html"><img src="Graphs/data-lg.png" class=BoxImage></a> 
-    </div>
+      <div class="col-sm-9 col-lg-5">  
+        <div class="gallery">
+          <div class="desc">CLOUDINESS</div>
+          <a target="_blank" href="img_lights.jpg">
+            <img id="SmImg" src="Graphs/CloudinessSouthern Hemisphere.png">     
+            <img id="SmImg" src="Graphs/CloudinessNorthern Hemisphere.png">         
+          </a>
+        </div>
+        
+        <div class="gallery">
+          <div class="desc">WIND SPEED</div>
+          <a target="_blank" href="img_mountains.jpg">
+            <img id="SmImg" src="Graphs/Wind SpeedSouthern Hemisphere.png">             
+            <img id="SmImg" src="Graphs/Wind SpeedNorthern Hemisphere.png">           
+          </a>
+        </div>
+      </div>
+
+      <!--Menu Box-->
+      <div class="col-sm-3 col-lg-2 MenuBox">
+        <div>VIZUALIZATION</div>
+        <a href="https://vivisantosa.github.io/"><img src="Graphs/pic1.png" class=BoxImage></a>
+        <a href="https://vivisantosa.github.io/"><img src="Graphs/pic2.png" class=BoxImage></a> 
+        <a href="https://vivisantosa.github.io/"><img src="Graphs/pic3.png" class=BoxImage></a> 
+        <a href="https://vivisantosa.github.io/"><img src="Graphs/pic4.png" class=BoxImage></a>
+        <a href="https://vivisantosa.github.io/"><img src="Graphs/comparison-lg.png" class=BoxImage></a>
+        <a href="https://vivisantosa.github.io/"><img src="Graphs/data-lg.png" class=BoxImage></a> 
+      </div>
   
     </div>
   
   </div>
-
+>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
