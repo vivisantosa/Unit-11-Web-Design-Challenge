@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>VizPg1 - WebViz</title>
+  <title>VizPg2 - WebViz</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -60,7 +60,7 @@
     <!--Header Section and Unit Name-->
     <div class="row">
       <div class='HeadBox'>
-        <t2>Temperature</t2> 
+        <t2>Humidity</t2> 
         <hr class="new3">
       </div>
     </div>  
@@ -68,26 +68,31 @@
     <!--Body Section and Unit Name-->
     <div class="row BodyBox">
       <div class="col-sm-9 col-lg-7">
-        <img src="Graphs/Max TempSouthern Hemisphere.png" class=VisImage>
-        <img src="Graphs/Max TempNorthern Hemisphere.png" class=VisImage>
+        <img src="Graphs/HumiditySouthern Hemisphere.png" class=VisImage>
+        <img src="Graphs/HumidityNorthern Hemisphere.png" class=VisImage>
         <p class="BodyFont">
-          As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude).
-          More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of the year than the norhtern hemisphere.
-          This is due to the tilt of the earth (earth's wobble) at this time of the year this data was gathered.
+          Humidity is not strongly correlated to the latitude of the locations measured, 
+					but there are some interesting characteristics displayed.  
+					100% humidity is reached in locations from approximately -50 to +70 degrees latitude 
+					but outside of this range, the maximum humidity falls to 80%.
+					Locations that measured 0% humidity were found between 60-80 degrees latitude.
+					Between -20 to 0 degrees latitude, the humidity did not fall below 50%.     
+					Perhaps with a larger amount of locations, humidity measurements would show 
+          stronger correlation to latitude.
         </p>
       </div>
       <div class="col-sm-9 col-lg-3">
-        <img src="Graphs/Max TempAmerica.png" class=VisImage1 >
-        <img src="Graphs/Max TempEurope, Africa, & Middle East.png" class=VisImage1 >
-        <img src="Graphs/Max TempAsia & Australia.png" class=VisImage1 >
+        <img src="Graphs/HumidityAmerica.png" class=VisImage1 >
+        <img src="Graphs/HumidityEurope, Africa, & Middle East.png" class=VisImage1 >
+        <img src="Graphs/HumidityAsia & Australia.png" class=VisImage1 >
       </div>
 
     <!--Menu Box-->
     <div class="col-sm-3 col-lg-2 MenuBox">
       <div>VISUALIZATION</div>
       <a href="index.html"><img src="Graphs/landingResize.png" alt="Landing Page" class=BoxImage></a>        
-      <!--<a href="V1.html"><img src="Graphs/Fig1.png" alt="Fig 1 Max Temperature" class=BoxImage></a> -->
-      <a href="V2.html"><img src="Graphs/Fig2.png" alt="Fig 2 Humidity" class=BoxImage></a>
+      <a href="V1.html"><img src="Graphs/Fig1.png" alt="Fig 1 Max Temperature" class=BoxImage></a>
+      <!--<a href="V2.html"><img src="Graphs/Fig2.png" alt="Fig 2 Humidity" class=BoxImage></a> -->
       <a href="V3.html"><img src="Graphs/Fig3.png" alt="Fig 3 Cloudiness" class=BoxImage></a> 
       <a href="V4.html"><img src="Graphs/Fig4.png" alt="Fig 4 Wind Speed"class=BoxImage></a>
       <a href="C1.html"><img src="Graphs/comparison-lg.png" alt="Comparison" class=BoxImage></a>

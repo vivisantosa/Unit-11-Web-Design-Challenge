@@ -3,45 +3,51 @@
 	Assignment 09 - Web Vizualisation
   Author:	Vivianti Santosa -->
 
-<!--COMPARISON-->  
+<!--COMPARISON 2-->  
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Comp - WebViz</title>
+  <title>Comp2 - WebViz</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
+  </head>
 
-<body>
-  <!--Navbar with collapse and drop down -->
-  <nav class="navbar navbar-inverse" id="MyColor_Blue"> 
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" id="RightAlign" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-        </button>
-        <a class="navbar-brand" id="Project_Font" href="#">WEB VIZUALISATION PROJECT</a>
-      </div>
+  <body>
+    <!--Navbar with collapse and drop down -->
+    <nav class="navbar navbar-inverse" id="MyColor_Blue"> 
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" id="RightAlign" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" id="Project_Font" href="index.html">WEB VIZUALISATION PROJECT</a>
+        </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="https://vivisantosa.github.io/"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+          <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Analysis <span class="caret"></span></a>
-            <ul class="dropdown-menu">
+              <ul class="dropdown-menu">                
               <li><a href="V1.html">Temperature</a></li>
               <li><a href="V2.html">Humidity</a></li>
               <li><a href="V3.html">Coudiness</a></li>
               <li><a href="V4.html">Wind Speed</a></li>
             </ul>
           </li>
-          <li><a href="Comp.html">Comparison</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Comparison <span class="caret"></span></a>
+              <ul class="dropdown-menu">                
+              <li><a href="Comp.html">Comparison1</a></li>
+              <li><a href="Comp1.html">Comparison2</a></li>
+            </ul>
+          </li>
           <li><a href="Data.html">Data</a></li>
           <li><a href="https://vivisantosa.github.io/"><span class="glyphicon glyphicon-user"></span> MyPage</a></li>
         </ul>
@@ -49,70 +55,62 @@
     </div>
   </nav>
 
-  <!--Vizualisation Body-->
-  <div class="container-fluid">
-    <!--Header Section and Unit Name-->
-    <div class="row">
-      <div class='HeadBox'>
-        <t2>Max Temperature</t2> 
-        <hr class="new3">
-      </div>
-    </div>  
-  
-    <!--Body Section and Unit Name-->
-    <div class="row BodyBox">
-      <!--Body-->
-      <div class="col-sm-9 col-lg-5">
-        <div class="gallery">
-          <div class="desc">MAXIMUM TEMPERATURE</div>
-          <a target="_blank" href="img_5terre.jpg">
-            <img id="SmImg" src="Graphs/Max TempSouthern Hemisphere.png">
-            <img id="SmImg" src="Graphs/Max TempNorthern Hemisphere.png">
-          </a>
+    <!--Vizualisation Body-->
+    <div class="container-fluid">
+      <!--Header Section and Unit Name-->
+      <div class="row">
+        <div class='HeadBox'>
+          <t2>Comparison</t2> 
+          <hr class="new3">
         </div>
-        
-        <div class="gallery">
-          <div class="desc">HUMIDITY</div>
-          <a target="_blank" href="img_forest.jpg">
-            <img id="SmImg" src="Graphs/HumiditySouthern Hemisphere.png">
-            <img id="SmImg" src="Graphs/HumidityNorthern Hemisphere.png">
-          </a>
-        </div>
-      </div>
+      </div>  
 
-      <div class="col-sm-9 col-lg-5">  
-        <div class="gallery">
-          <div class="desc">CLOUDINESS</div>
-          <a target="_blank" href="img_lights.jpg">
-            <img id="SmImg" src="Graphs/CloudinessSouthern Hemisphere.png">     
-            <img id="SmImg" src="Graphs/CloudinessNorthern Hemisphere.png">         
-          </a>
+      <!--Body Section and Unit Name-->
+      <div class="row BodyBox">
+        <!--Body-->
+        <div class="col-sm-5 col-lg-5">
+          <div class="gallery">
+            <a target="_blank" href="V1.html">
+              <img  src="Graphs/pic1.png">
+            </a>
+          </div>
+          
+          <div class="gallery">
+            <a target="_blank" href="V2.html">
+              <img  src="Graphs/pic2.png">
+            </a>
+          </div>
         </div>
-        
-        <div class="gallery">
-          <div class="desc">WIND SPEED</div>
-          <a target="_blank" href="img_mountains.jpg">
-            <img id="SmImg" src="Graphs/Wind SpeedSouthern Hemisphere.png">             
-            <img id="SmImg" src="Graphs/Wind SpeedNorthern Hemisphere.png">           
-          </a>
+        <div class="col-sm-5 col-lg-5">  
+          <div class="gallery">
+            <a target="_blank" href="V3.html">
+              <img src="Graphs/pic3.png">            
+            </a>
+           </div>
+          
+          <div class="gallery">
+            <a target="_blank" href="V4.html">
+              <img src="Graphs/pic4.png">             
+            </a>
+          </div>
+          <br><br>
+          <p3>As expected, </p3>
         </div>
-      </div>
 
-      <!--Menu Box-->
-      <div class="col-sm-3 col-lg-2 MenuBox">
-        <div>VIZUALIZATION</div>
-        <a href="index.html"><img src="Graphs/landingResize.png" alt="Landing Page" class=BoxImage></a>        
-        <a href="V1.html"><img src="Graphs/pic1.png" alt="Fig 1 Max Temperature" class=BoxImage></a>
-        <a href="V2.html"><img src="Graphs/pic2.png" alt="Fig 2 Humidity" class=BoxImage></a> 
-        <a href="V3.html"><img src="Graphs/pic3.png" alt="Fig 3 Cloudiness" class=BoxImage></a> 
-        <a href="V4.html"><img src="Graphs/pic4.png" alt="Fig 4 Wind Speed"class=BoxImage></a>
-        <a href="Data.html"><img src="Graphs/data-lg.png" alt="Data Table" class=BoxImage></a>  
+        <!--Menu Box-->
+        <div class="col-sm-2 col-lg-2 MenuBox">
+          <div>VISUALIZATION</div>
+          <a href="index.html"><img src="Graphs/landingResize.png" alt="Landing Page" class=BoxImage></a>        
+          <a href="V1.html"><img src="Graphs/Fig1.png" alt="Fig 1 Max Temperature" class=BoxImage></a>
+          <a href="V2.html"><img src="Graphs/Fig2.png" alt="Fig 2 Humidity" class=BoxImage></a> 
+          <a href="V3.html"><img src="Graphs/Fig3.png" alt="Fig 3 Cloudiness" class=BoxImage></a> 
+          <a href="V4.html"><img src="Graphs/Fig4.png" alt="Fig 4 Wind Speed"class=BoxImage></a>
+        <!-- <a href="Comp.html"><img src="Graphs/comparison-lg.png" alt="Comparison" class=BoxImage></a> --> 
+          <a href="Data.html"><img src="Graphs/data-lg.png" alt="Data Table" class=BoxImage></a>
+          </div>
+        </div>
       </div>
-  
-    </div>
-  
-  </div>
->
+    </div>    
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

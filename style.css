@@ -7,6 +7,9 @@
 #MyColor_Blue{
   background-color: #356178;
 }
+#MyColor_yellow{
+  color: #f4eba0;
+}
 #Project_Font{
   font-family: 'Calibri';
   font-size: 24pt;
@@ -20,10 +23,10 @@
 
 /* Styles for Heading Box */
 .HeadBox{
-  /*position: absolute;
-  top: 50px;*/
     width: 100%;
-    padding-top: 15px;
+    margin-top: -20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
     padding-left: 50px;
     height: 120px;
     margin:0px;
@@ -50,6 +53,10 @@ t2{
   font-size: 28pt;
   font-weight: 400;
   z-index: 10;
+  margin-top: 14pt;
+}
+p3{
+  color: #f4eba0
 }
 hr.new3 {
   border-top: 10px dotted #356178;
@@ -68,6 +75,7 @@ hr.new3 {
   width: max;
   padding-top : 30px;
   padding-left: 50px;
+  padding-right: 50px;
   background-color: #f4eba0;
 }
 .title{
@@ -76,35 +84,45 @@ hr.new3 {
   padding-top: 20px;
 }
 .LandPgImage{
-  Width: 50%;
+  Width: 40%;
   Height: auto;
   padding-right: 20px;
   float: left;
   box-shadow: grey 20px;
 }
 .VisImage{
-  max-width: 100%;
-  /*height: 420px;*/
+  width: 49%;
+  box-shadow: grey 20px;
+}
+#SmImg {
+  width: 49%;}
+
+.VisImage1{
+  max-width: 90%;
+  height: 150px;
   box-shadow: grey 20px;
 }
 .BodyFont{
   font-size: 14pt;
   text-align: justify;
-  margin-right: 40px;
+  margin-left: 0;
+  margin-right: 20px;
+  padding-top: 20px;
 }
 
 /* Styles for Menu Box */
 .MenuBox{
-  position: relative;
+  /*position: relative;*/
   background-color: #356178;
-  top: -100px;
-  padding: 10px;
+  top: -120px;
   width: 90%;
   align-self: center;
   color: whitesmoke;
   font-weight: 700;
   font-size: 9pt;
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .BoxImage:hover {
   border: 2px solid #777;
@@ -123,24 +141,28 @@ img {
 }
 /*Style for Gallery*/
 .gallery {
-  padding: 10px;
-  border: 1px dashed turquoise;
+  border: 10px #f4eba0;
+  border-style: double;
   border-radius: -3px;
   float: left;
-  width: 85%;
-  align-items: center;
+  width: 90%;
+  padding: 10px;
   background-color: #ddd5c5;
-  margin: 20px;
+  margin: 1%;
+  padding-right: 3%;
+  padding-bottom: 1.5%;
+  align-items: center;
 }
 .gallery:hover {
   border: 2px solid #777;
 }
 .gallery img {
   width: 100%;
+  padding-left: 5%;
   height: auto;
-  align-items: center;}
-#SmImg {
-    width: 47%;}
+  align-items: center;
+}
+
 .desc {
   padding: 5px;
   font-weight: 600;
@@ -152,20 +174,37 @@ img {
   table-layout: auto;
   width: 100%;
   background-color: wheat; 
+  color: black;
+}
+.TableHeading{
+  background-color:  #356178;
+  text-align: center;
+  color: #fff;
 }
 .TableFont{
   font-size: 12pt;
+}
+/* Adding media queries for
+screen smaller than 1080 pixels */
+@media (max-width: 1080px) {
+
+.TableFont{
+    font-size: 11pt;
 }
 
 /* Adding media queries for
 screen smaller than 780 pixels */
 @media (max-width: 780px) {
   #Project_Font{
-    font-size: 20pt;
-  }
+    font-size: 20pt;}
   .HeadBox{
     padding: 10px;
     height: 90px;}
+  #MyColor_Blue{
+    background-color:  grey;}
+  .TableHeading{
+      background-color:  grey;
+      color: black;}
   t1{
     font-size: 28pt;
     font-weight: 400;
@@ -179,9 +218,17 @@ screen smaller than 780 pixels */
     margin-right: 10px;
     } 
   .MenuBox{
+    top: 0px;
     padding: 10px;
-    width: 90%;
+    width: 100%;
     }  
+  .BoxImage{
+    width:30%;
+    }
+  .VisImage{
+      width: 100%;}
+  .VisImage1{
+    display: none;}
   .TableFont{
     font-size: 9pt;}
 }
