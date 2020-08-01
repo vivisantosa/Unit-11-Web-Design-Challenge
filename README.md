@@ -6,7 +6,7 @@
 The link to the webpage = https://vivisantosa.github.io/Unit-11-Web-Design-Challenge/index.html
 
 Here are the my landing page, on small size, and full screen<br>
-<img src="/Images/sm1.png" width="300"> <img src="/Images/lg1.png" width="640">
+<img src="/Images/sm1.png" width="270"> <img src="/Images/lg1.png" width="700">
 
 Here are main visualization page <br>
 <img src="/Images/md2.png" width="560">
