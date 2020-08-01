@@ -70,8 +70,6 @@ hr.new3 {
   background-color: #f4eba0;
 }*/
 .BodyBox{
-  /*position: absolute;
-  top: 170px;*/
   width: max;
   padding-top : 30px;
   padding-left: 50px;
@@ -84,7 +82,7 @@ hr.new3 {
   padding-top: 20px;
 }
 .LandPgImage{
-  Width: 40%;
+  Width: 35%;
   Height: auto;
   padding-right: 20px;
   float: left;
@@ -103,7 +101,7 @@ hr.new3 {
   box-shadow: grey 20px;
 }
 .BodyFont{
-  font-size: 14pt;
+  font-size: 12pt;
   text-align: justify;
   margin-left: 0;
   margin-right: 20px;
@@ -196,7 +194,7 @@ screen smaller than 1080 pixels */
 screen smaller than 780 pixels */
 @media (max-width: 780px) {
   #Project_Font{
-    font-size: 20pt;}
+    font-size: 18pt;}
   .HeadBox{
     padding: 10px;
     height: 90px;}
@@ -206,15 +204,21 @@ screen smaller than 780 pixels */
       background-color:  grey;
       color: black;}
   t1{
-    font-size: 28pt;
+    font-size: 26pt;
     font-weight: 400;
     margin-left: 10px;}
   t2{
-    font-size: 22pt;
+    font-size: 20pt;
     font-weight: 300;
     margin-left: 10px;}
+  .BodyBox{
+      width: max;
+      padding-top : 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+      align-items: center;}
   .BodyFont{
-    font-size: 12pt;
+    font-size: 11pt;
     margin-right: 10px;
     } 
   .MenuBox{
@@ -226,7 +230,8 @@ screen smaller than 780 pixels */
     width:30%;
     }
   .VisImage{
-      width: 100%;}
+      width: 80%;
+      margin-left: 8%;}
   .VisImage1{
     display: none;}
   .TableFont{

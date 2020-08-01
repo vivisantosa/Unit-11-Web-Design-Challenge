@@ -26,7 +26,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>                        
           </button>
-          <a class="navbar-brand" id="Project_Font" href="index.html">WEB VIZUALISATION PROJECT</a>
+          <a class="navbar-brand" id="Project_Font" href="index.html">WEB VISUALIZATION PROJECT</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
@@ -71,14 +71,12 @@
         <div class="col-sm-9 col-lg-10">
           <img src="Images/UDEL_climo_5180.png" class=LandPgImage>
           <p class="BodyFont">
-            The purpose of this project was to analyze how weather changes as you get closer to the equator.  
-            To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset 
-            on over 500 cities.
-            <br><br>
-            After assembling the dataset, we used Matplotlib toplot various aspects of the weather vs. latitude.  
-            Factors we looked at included:  temperature, cloudiness, wind speed, and humidity.  
-            This site provides the source data and visualizations created as part of the anlaysis, 
-            as well as explanations and desicriptions of any trends and correlations witnessed.
+            The purpose of the WeatherPy project is to evaluate the weather pattern of places on earth in relation to its location (defined by their longitude and latitude), especially in regards to its Longitude. The weather elements that we analyze are max temperature, humidity, cloudiness, and wind speed.<br><br>
+            The hypothesis is that a place's location on earth impacts its weather characteristics. Among the  hypothesis that we want to prove are :<br> 
+            - “the further a city from the equator the lowest their maximum temperature is” <br> 
+            - “places with similar distance from the equator, have similar weather patterns”<br> <br> 
+            To do this evaluation, we created random sample lists of cities that represent various areas of the world (e.g. Southern Hemisphere, The Tropics). The weather data of the day’s data (June 20, 2020) then be obtained through performing API queries. We then created visualization, performed regression analysis, and examined the patterns. To look if other location factors impact weather conditions, we group the cities that have similar longitude and latitude. Base on latitude, we group the cities as the American; Europe, Africa, and the Middle East; and Asia and Australia. <br><br>  
+            The data used for this analysis is obtained from python library’s citipy and OpenWeatherMap. The  dataset from OpenWeatherMap includes City_ID, City, Cloudiness, Country, Date, Humidity, Lat, Lng, Max, Temp ,Wind Speed.<br>
           </p>
         </div>
       <!--Menu Box-->
