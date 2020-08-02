@@ -19,7 +19,7 @@ For the website, we create individual pages for the analysis of each weather fac
 One of the requirements of the assignment is that the pages are Responsive pages.  Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it look good on all devices (desktops, tablets, and phones). We achieve this using bootstrap4 grid (column) system. The pictures below show one of the pages in various sizes.<br>
 <img src="/Images/lg3.png" width="480">
 <img src="/Images/md3.png" width="300">
-<img src="/Images/sm3.png" width="170">
+<img src="/Images/sm3.png" width="175">
 
 ### Navigation <br>
 In this dashboard, we also add means by which visitors can navigate between them. <br>
