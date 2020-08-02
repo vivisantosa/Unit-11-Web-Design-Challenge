@@ -12,6 +12,8 @@ For this, we are using “WeatherPy” from “Unit-06-Python-API-challenge”. 
 <img src="/Graphs/Fig2.png" width="240">
 <img src="/Graphs/Fig3.png" width="240">
 <img src="/Graphs/Fig4.png" width="240">
+
+<br>Below is the link to Unit-06 findings
 <br>https://github.com/vivisantosa/Unit-06-Python-API-challenge
 <br>
 ### Website Structure <br>
