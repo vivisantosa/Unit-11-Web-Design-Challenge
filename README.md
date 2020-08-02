@@ -4,13 +4,15 @@
 ## Unit-11-Web-Design-Challenge, HTML, CSS, Bootstrap
 By Vivianti Santosa
 
-https://vivisantosa.github.io/Unit-11-Web-Design-Challenge/ 
-In this project we learn and be challenged to create a visualization dashboard website using HTML, CSS, and Bootstrap 4 based on a past assignment. <br>
+https://vivisantosa.github.io/Unit-11-Web-Design-Challenge/
+
+<br>In this project we learn and be challenged to create a visualization dashboard website using HTML, CSS, and Bootstrap 4 based on a past assignment. <br>
 The assignment that we built on, is “WeatherPy” from “Unit-06-Python-API-challenge”. WeatherPy evaluates the relationship between longitude and weather factors such as max temperature, humidity, cloudiness, and wind speed. <br>
 <img src="/Graphs/Fig1.png" width="240">
 <img src="/Graphs/Fig2.png" width="240">
 <img src="/Graphs/Fig3.png" width="240">
 <img src="/Graphs/Fig4.png" width="240">
+<br>https://github.com/vivisantosa/Unit-06-Python-API-challenge
 <br>
 ### Website Structure <br>
 For the website, we create individual pages for the analysis of each weather factor, as well as a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them. We'll also have a landing page, where visitors first access the webpage. This page has an explanation of the project, as well as links to other pages. <br>
