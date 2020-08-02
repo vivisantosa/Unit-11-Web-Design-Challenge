@@ -16,7 +16,7 @@ For this, we are using “WeatherPy” from “Unit-06-Python-API-challenge”. 
 <br>
 ### Website Structure <br>
 For the website, we create individual pages for the analysis of each weather factor, as well as a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them. We'll also have a landing page, where visitors first access the webpage. This page has an explanation of the project, as well as links to other pages. <br>
-<img src="/Images/iPhone1.jpeg" width="480"> <img src="/Images/lg1.png" width="480">
+<img src="/Images/iPhone1.jpeg" width="480"> <img src="/Images/lg1.png" width="480"><br>
 ### Responsive Web Design<br>
 One of the requirements of the assignment is that the pages are Responsive pages.  Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it look good on all devices (desktops, tablets, and phones). <br>
 <img src="/Images/computer.jpeg" width="480"><br>
