@@ -6,8 +6,8 @@ By Vivianti Santosa
 
 https://vivisantosa.github.io/Unit-11-Web-Design-Challenge/
 
-<br>In this project we learn and be challenged to create a visualization dashboard website using HTML, CSS, and Bootstrap 4 based on a past assignment. <br>
-The assignment that we built on, is “WeatherPy” from “Unit-06-Python-API-challenge”. WeatherPy evaluates the relationship between longitude and weather factors such as max temperature, humidity, cloudiness, and wind speed. <br>
+<br>The focus of this project is creating a visualization dashboard website using HTML, CSS, and Bootstrap 4 based on a past assignment. <br>
+For this, we are using “WeatherPy” from “Unit-06-Python-API-challenge”. WeatherPy is a project that evaluates the relationship between longitude and weather factors such as max temperature, humidity, cloudiness, and wind speed. <br>
 <img src="/Graphs/Fig1.png" width="240">
 <img src="/Graphs/Fig2.png" width="240">
 <img src="/Graphs/Fig3.png" width="240">
