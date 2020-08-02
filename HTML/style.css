@@ -88,6 +88,10 @@ hr.new3 {
   float: left;
   box-shadow: grey 20px;
 }
+/*
+a:hover, a:active {
+  background-color: red;
+}*/
 .VisImage{
   width: 49%;
   box-shadow: grey 20px;
@@ -197,7 +201,7 @@ screen smaller than 1180 pixels */
 screen smaller than 780 pixels */
 @media (max-width: 780px) {
   #Project_Font{
-    font-size: 18pt;}
+    font-size: 16pt;}
   .HeadBox{
     padding: 10px;
     height: 90px;}
@@ -208,7 +212,7 @@ screen smaller than 780 pixels */
       font-size: 9pt;
       color: black;}
   t1{
-    font-size: 26pt;
+    font-size: 24pt;
     font-weight: 400;
     margin-left: 10px;}
   t2{
