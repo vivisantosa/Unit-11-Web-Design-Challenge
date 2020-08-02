@@ -1,6 +1,6 @@
 <!-- 
   UofT SCS Data Analytics Boot Camp
-	Assignment 09 - Web Vizualisation
+	Assignment 11 - Web Vizualisation
   Author:	Vivianti Santosa -->
 
 <!--LANDING PAGE-->  
@@ -15,60 +15,61 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <!--Navbar with collapse and drop down -->
-    <nav class="navbar navbar-inverse" id="MyColor_Blue"> 
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" id="RightAlign" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>                        
-          </button>
-          <a class="navbar-brand" id="Project_Font" href="index.html">WEB VISUALIZATION PROJECT</a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Analysis <span class="caret"></span></a>
-                <ul class="dropdown-menu">                
-                <li><a href="V1.html">Temperature</a></li>
-                <li><a href="V2.html">Humidity</a></li>
-                <li><a href="V3.html">Coudiness</a></li>
-                <li><a href="V4.html">Wind Speed</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Comparison <span class="caret"></span></a>
-                <ul class="dropdown-menu">                
-                <li><a href="Comp.html">Comparison1</a></li>
-                <li><a href="Comp1.html">Comparison2</a></li>
-              </ul>
-            </li>
-            <li><a href="Data.html">Data</a></li>
-            <li><a href="https://vivisantosa.github.io/"><span class="glyphicon glyphicon-user"></span> MyPage</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+</head>
 
-    <!--Vizualisation Body-->
+<body>
+  <!--Navbar with collapse and drop down -->
+  <nav class="navbar navbar-inverse" id="MyColor_Blue"> 
     <div class="container-fluid">
-      <!--Header Section and Unit Name-->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" id="RightAlign" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" id="Project_Font" href="index.html">WEB VISUALIZATION PROJECT</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Analysis <span class="caret"></span></a>
+              <ul class="dropdown-menu">                
+              <li><a href="V1.html">Temperature</a></li>
+              <li><a href="V2.html">Humidity</a></li>
+              <li><a href="V3.html">Coudiness</a></li>
+              <li><a href="V4.html">Wind Speed</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Comparison <span class="caret"></span></a>
+              <ul class="dropdown-menu">                
+              <li><a href="Comp.html">Comparison1</a></li>
+              <li><a href="Comp1.html">Comparison2</a></li>
+            </ul>
+          </li>
+          <li><a href="Data.html">Data</a></li>
+          <li><a href="https://vivisantosa.github.io/"><span class="glyphicon glyphicon-user"></span> MyPage</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>  
 
-      <div class="row">
-        <div class='HeadBox'>
-          <t1>Summary: Latitude vs. X</t1> 
-          <hr class="new3">
-        </div>
-      </div> 
+  <!--Vizualisation Section-->
+  <div class="container-fluid">
 
-      <!--Body Section and Unit Name-->
-      <div class="row BodyBox">
-        <!--Body-->
-        <div class="col-sm-9 col-lg-10">
+    <!--Header Section -->
+    <div class="row">
+      <div class='HeadBox'>
+        <t1>Summary: Latitude vs. X</t1> 
+        <hr class="new3">
+      </div>
+    </div>   
+
+    <!--Body Section-->
+    <div class="row BodyBox">
+      <!--Content-->
+      <div class="col-sm-9 col-lg-10">
           <img src="Images/UDEL_climo_5180.png" class=LandPgImage>
           <p class="BodyFont">
             The purpose of the WeatherPy project is to evaluate the weather pattern of places on earth in relation to its location (defined by their longitude and latitude), especially in regards to its Longitude. The weather elements that we analyze are max temperature, humidity, cloudiness, and wind speed.<br><br>
@@ -78,7 +79,7 @@
             To do this evaluation, we created random sample lists of cities that represent various areas of the world (e.g. Southern Hemisphere, The Tropics). The weather data of the day’s data (June 20, 2020) then be obtained through performing API queries. We then created visualization, performed regression analysis, and examined the patterns. To look if other location factors impact weather conditions, we group the cities that have similar longitude and latitude. Base on latitude, we group the cities as the American; Europe, Africa, and the Middle East; and Asia and Australia. <br><br>  
             The data used for this analysis is obtained from python library’s citipy and OpenWeatherMap. The  dataset from OpenWeatherMap includes City_ID, City, Cloudiness, Country, Date, Humidity, Lat, Lng, Max, Temp ,Wind Speed.<br>
           </p>
-        </div>
+      </div>
       <!--Menu Box-->
       <div class="col-sm-3 col-lg-2 MenuBox">
         <div>VISUALIZATION</div>       
@@ -90,7 +91,7 @@
         <a href="Data.html"><img src="Graphs/data-lg.png" alt="Data Table" class=BoxImage></a> 
       </div>
     </div>
-  </div>    
+  </div> <!--end of container -->   
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

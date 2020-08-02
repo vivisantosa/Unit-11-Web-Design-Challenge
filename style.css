@@ -96,8 +96,8 @@ hr.new3 {
   width: 49%;}
 
 .VisImage1{
-  max-width: 90%;
-  height: 150px;
+  max-width: 100%;
+  max-height: 150px;
   box-shadow: grey 20px;
 }
 .BodyFont{
@@ -126,8 +126,8 @@ hr.new3 {
   border: 2px solid #777;
 }
 .BoxImage{
-  width:135px;
-  height:auto;
+  width:90%;
+  max-height: 90px;
   padding-top:5px;
   padding-bottom:5px;
 }
@@ -176,18 +176,21 @@ img {
 }
 .TableHeading{
   background-color:  #356178;
+  align-items: center;
   text-align: center;
   color: #fff;
+  font-size: 10pt;
 }
 .TableFont{
-  font-size: 12pt;
+  font-size: 11pt;
 }
 /* Adding media queries for
-screen smaller than 1080 pixels */
-@media (max-width: 1080px) {
-
+screen smaller than 1180 pixels */
+@media (max-width: 1180px) {
 .TableFont{
-    font-size: 11pt;
+    font-size: 10pt;}
+.TableHeading{
+    font-size: 10pt;}
 }
 
 /* Adding media queries for
@@ -202,6 +205,7 @@ screen smaller than 780 pixels */
     background-color:  grey;}
   .TableHeading{
       background-color:  grey;
+      font-size: 9pt;
       color: black;}
   t1{
     font-size: 26pt;
@@ -227,7 +231,7 @@ screen smaller than 780 pixels */
     width: 100%;
     }  
   .BoxImage{
-    width:30%;
+    width:15%;
     }
   .VisImage{
       width: 80%;
