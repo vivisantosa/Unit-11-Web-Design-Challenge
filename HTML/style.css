@@ -83,6 +83,13 @@ hr.new3 {
   margin-left: 20px;
   padding-top: 20px;
 }
+.LandPgBox{
+  background-color: lightgray;
+  padding: 20px;
+  margin: 20px;
+  margin-right: 40px;
+  border: double lightsalmon;
+}
 .LandPgImage{
   Width: 35%;
   Height: auto;
@@ -112,7 +119,7 @@ a:hover, a:active {
   margin-left: 0;
   margin-right: 20px;
   padding-top: 20px;
-  font-weight: bolder;
+  font-weight: 500;
 }
 
 /* Styles for Menu Box */
